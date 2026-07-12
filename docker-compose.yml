@@ -1,0 +1,8 @@
+services:
+
+  cloud-secops-platform:
+    build: .
+    container_name: cloud-secops-platform
+    ports:
+      - "8000:8000"
+    restart: unless-stopped
