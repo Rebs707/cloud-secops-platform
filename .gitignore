@@ -1,18 +1,7 @@
-# Python
-venv/
 __pycache__/
 *.py[cod]
-*.pyo
-
-# Pytest
 .pytest_cache/
-
-# Environment
+.venv/
+venv/
 .env
-
-# IDE
-.vscode/
-.idea/
-
-# OS
-.DS_Store
+*.log
